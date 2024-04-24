@@ -21,5 +21,16 @@ $desktop-width: 1024px;
 
 .card-size {
   height: 75dvh;
-  width: 65dvw
+
+  @include desktop {
+    width: 65dvw;
+  }
+
+  @include tablet {
+    width: 70dvw;
+  }
+
+  @include phone {
+    width: 75dvw;
+  }
 }
