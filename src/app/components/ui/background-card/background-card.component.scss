@@ -1,17 +1,17 @@
 @import "breakpoints";
 
 .card-size {
-  height: 75dvh;
+  height: 75lvh;
 
   @include desktop {
-    width: 50dvw;
+    width: 50lvw;
   }
 
   @include tablet {
-    width: 70dvw;
+    width: 70lvw;
   }
 
   @include phone {
-    width: 90dvw;
+    width: 90lvw;
   }
 }
