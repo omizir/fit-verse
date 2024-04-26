@@ -12,4 +12,4 @@ export class IconComponent {
   hoverEnabled = input<boolean>(false);
 }
 
-export type IconType = 'trophy' | 'chevron-right' | 'play' | 'chart-bar';
+export type IconType = 'trophy' | 'chevron-right' | 'play' | 'chart-bar' | 'cog' | 'user';
