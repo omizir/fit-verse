@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
-import {BackgroundCardComponent} from "../../components/ui/background-card/background-card.component";
-import {NavigationButtonComponent} from "../../components/ui/navigation-button/navigation-button.component";
-import {UserCardComponent} from "../../components/ui/user-card/user-card.component";
+import {BackgroundCardComponent} from "../../components/background-card/background-card.component";
+import {NavigationButtonComponent} from "../../components/navigation-button/navigation-button.component";
+import {UserCardComponent} from "../../components/user-card/user-card.component";
 
 @Component({
   selector: 'app-navigation-page',

@@ -23,5 +23,5 @@ export class IconComponent {
   }
 }
 
-export type IconType = 'trophy' | 'chevron-right' | 'play' | 'chart-bar' | 'cog' | 'user' | 'arrow-left';
+export type IconType = 'trophy' | 'chevron-right' | 'chevron-up' | 'chevron-down' | 'play' | 'chart-bar' | 'cog' | 'user' | 'arrow-left';
 export type IconSize = 'small' | 'medium' | 'large';

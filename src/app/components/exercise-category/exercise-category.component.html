@@ -1,0 +1,8 @@
+<div class="group flex flex-row {{getColorString()}} p-4 cursor-pointer mt-0.5 shadow-md" (click)="expand()">
+  <p class="basis-1/12"></p>
+  <p class="basis-10/12 font-bold text-lg text-center">{{category()}}</p>
+  <omz-icon class="basis-1/12"
+            stroke="stroke-black"
+            [iconType]="expanded() ? 'chevron-up' : 'chevron-down'">
+  </omz-icon>
+</div>
