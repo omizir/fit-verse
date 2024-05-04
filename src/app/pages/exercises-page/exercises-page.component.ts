@@ -3,6 +3,7 @@ import {BackgroundCardComponent} from "../../components/background-card/backgrou
 import {PageHeaderComponent} from "../../components/page-header/page-header.component";
 import {ExerciseCategoryComponent} from "../../components/exercise-category/exercise-category.component";
 import {StateService} from "../../services/state/state.service";
+import {FloatingIconButtonComponent} from "../../components/floating-icon-button/floating-icon-button.component";
 
 @Component({
   selector: 'omz-exercises-page',
@@ -10,7 +11,8 @@ import {StateService} from "../../services/state/state.service";
   imports: [
     BackgroundCardComponent,
     PageHeaderComponent,
-    ExerciseCategoryComponent
+    ExerciseCategoryComponent,
+    FloatingIconButtonComponent
   ],
   templateUrl: './exercises-page.component.html',
   styleUrl: './exercises-page.component.scss'

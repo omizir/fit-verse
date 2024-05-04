@@ -15,7 +15,8 @@ export class IconComponent {
   sizeStrings: { [key in IconSize]: string } = {
     'small': 'w-6 h-6',
     'medium': 'w-8 h-8',
-    'large': 'w-12 h-12'
+    'large': 'w-10 h-10',
+    'x-large': 'w-12 h-12'
   };
 
   getIconSizeString(): string {
@@ -23,5 +24,5 @@ export class IconComponent {
   }
 }
 
-export type IconType = 'trophy' | 'chevron-right' | 'chevron-up' | 'chevron-down' | 'play' | 'chart-bar' | 'cog' | 'user' | 'arrow-left';
-export type IconSize = 'small' | 'medium' | 'large';
+export type IconType = 'trophy' | 'chevron-right' | 'chevron-up' | 'chevron-down' | 'play' | 'chart-bar' | 'cog' | 'user' | 'arrow-left' | 'plus';
+export type IconSize = 'small' | 'medium' | 'large' | 'x-large';
