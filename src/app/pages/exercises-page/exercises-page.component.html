@@ -4,6 +4,23 @@
 
   <!-- BACK, BI & CORE-->
   <omz-exercise-category category="Back" color="blue"></omz-exercise-category>
+  @if (this.selectedCategory() === 'Back' && exerciseMap.has('back')) {
+    @for (exercise of exerciseMap.get('back'); track exercise.title) {
+      <div class="flex flex-row bg-blue-300 p-2 rounded-sm border-y border-slate-700 cursor-pointer shadow-md">
+        <p class="basis-6/12 font-semibold">
+          {{exercise.title}}
+        </p>
+        <p class="basis-4/12">
+          {{exercise.maximum}} {{exercise.type === ( 'weight' || 'support' ) ? 'kg' : ''}}
+        </p>
+        <div class="flex basis-2/12 justify-center">
+          @if (exercise.progressed) {
+            <omz-icon iconType="check-circle" stroke="stroke-black" size="small"></omz-icon>
+          }
+        </div>
+      </div>
+    }
+  }
   <omz-exercise-category category="Biceps" color="blue"></omz-exercise-category>
   <omz-exercise-category category="Core" color="blue"></omz-exercise-category>
 
